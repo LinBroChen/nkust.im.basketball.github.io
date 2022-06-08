@@ -1,0 +1,29 @@
+a{
+    color: rgb(36, 28, 28);
+}
+.container {
+    display: flex;
+   
+}
+
+.container div{
+    border: 1px solid rgb(202, 201, 208);
+    padding: 10px;
+    width: 100px;
+}
+
+.box-1 {
+    flex: 1;
+}
+.box-2 {
+    flex: 1;
+}
+.box-3 {
+    flex: 1;
+}
+.box-4 {
+    flex: 1;
+}
+.box-5 {
+    flex: 1;
+}
