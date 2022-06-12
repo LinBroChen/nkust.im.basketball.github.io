@@ -1,112 +1,132 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <style>
-            .span1 {
-                font-size: 0.6cm
-            }
+
+<head>
+
+    <style>
+        .span1 {
+            font-size: 0.6cm
+        }
+
+        .span2 {
+            font-size: 0.8cm
+        }
+
+        a {
+            color: white
+        }
+
+        .primary-btn {
+
+            font-size: 18px;
+
+            color: #fff;
+
+            height: 30px;
+
+            padding: 0px 20px 17px 20px;
+
+
+            background-color: rgb(38, 70, 120);
+
+            border: 10px solid rgb(38, 70, 120);
+
+            line-height: 5;
+
+            text-align: right;
+
+            border-radius: 10px 10px 0px 0px;
+
+            cursor: pointer;
+
+            transition: opacity 0.2s;
+
+            outline: 2px solid white;
+
+            position: relative;
+        }
+
+        .primary-btn::before {
+
+            position: absolute;
+
+            top: 50%;
+
+            left: 50%;
+
+            width: 100%;
+
+            height: 100%;
+
+            background-color: #000;
+
+            border: inherit;
+
+            border-color: #000;
+
+            border-radius: inherit;
+
+            transform: translate(-50%, -50%);
+
+            opacity: 0;
+
+            content: ' ';
+        }
+
+        .primary-btn:active::before {
+            opacity: 0.3;
+        }
+    </style>
+    <!-- 網頁編碼 -->
+    <meta charset="UTF-8">
+    </meta>
+    <title>高科資管系藍</title>
+</head>
+
+<body >
+    <div style="text-align:left ;color:black">
+        <p style="border:none; padding:63px; margin:-10px; background-color:rgb(89,89,91) ;"></p>
+        <div style="display:inline-block; position:relative; padding:25px 40px 25px 25px; margin:-10px;background-color:white; border:4px solid black; ">
+            <span class="span2" style="font-family:Comic Sans Ms">　　　　　Basketball</span>
+            <br><br><br><br>
+            <nobr><div style="box-sizing: border-box ;display:inline-block;text-align:right; font-family:Comic Sans Ms" class="span1">　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　NKUST &nbsp Information Management　　　　　　</div></nobr>
+
+        </div> 
+    </div>
+    <div style="  box-sizing: border-box ; display:inline-block; text-align:left ;  padding:15px 0px -5px ;margin:-10px; box-sizing:border-box ; background-color:rgb(38,70,120); ">
+        
+        <br><br>
+        <p style="display:inline;">　　　　　　　　　　</p>
+        <a href="page2.html" style="display:inline-block; text-decoration:none  " class="primary-btn">球員近期數據</a>
+        <a href="page3.html" style="display:inline-block; text-decoration:none " class="primary-btn">比賽片段</a>
+        <a href="page5.html" style="display:inline-block; text-decoration:none " class="primary-btn">練習片段</a>
+        <a href="page6.html" style="display:inline-block; text-decoration:none " class="primary-btn">球員介紹</a>
+        <p style="display:inline;">　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　</p>
+        <br><p></p>
+    </div>
+
+    <div
+        style="align:left; display:inline-block; position:relative; padding:25px 40px 25px 25px; margin:-10px;background-color:#bce6ff; border:4px solid white; ">
+        <h1>練習片段　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　</h1>
     
-            .span2 {
-                font-size: 0.8cm
-            }
-    
-            a {
-                color: white
-            }
-    
-            .primary-btn {
-    
-                font-size: 18px;
-    
-                color: #fff;
-    
-                height: 30px;
-    
-                padding: 0px 20px 17px 20px;
-    
-    
-                background-color: rgb(38, 70, 120);
-    
-                border: 10px solid rgb(38, 70, 120);
-    
-                line-height: 5;
-    
-                text-align: right;
-    
-                border-radius: 10px 10px 0px 0px;
-    
-                cursor: pointer;
-    
-                transition: opacity 0.2s;
-    
-                outline: 2px solid white;
-    
-                position: relative;
-            }
-    
-            .primary-btn::before {
-    
-                position: absolute;
-    
-                top: 50%;
-    
-                left: 50%;
-    
-                width: 100%;
-    
-                height: 100%;
-    
-                background-color: #000;
-    
-                border: inherit;
-    
-                border-color: #000;
-    
-                border-radius: inherit;
-    
-                transform: translate(-50%, -50%);
-    
-                opacity: 0;
-    
-                content: ' ';
-            }
-    
-            .primary-btn:active::before {
-                opacity: 0.3;
-            }
-        </style>
-        <!-- 網頁編碼 -->
-        <meta charset="UTF-8">
-        </meta>
-        <title>高科資管系藍</title>
-    </head>
-    <body>
-        <div style="text-align:left ;color:black">
-            <p style="border:none; padding:63px; margin:-10px; background-color:rgb(89,89,91) ;"></p>
-            <div
-                style="display:inline-block; position:relative; padding:25px 40px 25px 25px; margin:-10px;background-color:white; border:4px solid black; c">
-                <span class="span2" style="font-family:Comic Sans Ms">　　　　　Basketball</span>
-                <br><br><br><br>
-                <div style="box-sizing: border-box ;display:inline-block;text-align:right; font-family:Comic Sans Ms" class="span1">　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　NKUST &nbsp Information Management　　　　　　</div>
-    
-            </div> 
-    
-        </div>
-        <div style=" box-sizing: border-box ; display:inline-block; text-align:left ;  padding:15px 0px -5px ;margin:-10px; box-sizing:border-box ; background-color:rgb(38,70,120); ">
-            
-            <br><br>
-            <p style="display:inline;">　　　　　　　　　　</p>
-            <a href="page2.html" style="display:inline-block; text-decoration:none  " class="primary-btn">球員數據</a>
-            <a href="page3.html" style="display:inline-block; text-decoration:none " class="primary-btn">比賽片段</a>
-            <a href="page5.html" style="display:inline-block; text-decoration:none " class="primary-btn">練習片段</a>
-            <a href="page6.html" style="display:inline-block; text-decoration:none " class="primary-btn">球員介紹</a>
-            <p style="display:inline;">　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　</p>
-        </div>
-    <h1>練習片段</h1>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/5A3JE0ZL6HQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/_fGqIF1vZoI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/biNk3buUj70" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <a href="index.html">回到首頁</a>
-    <br/>
-    </body>
+        <p>　　　　　　　　　　　　　　　　　　　　　　　　<iframe style="display:inline-block;box-sizing: border-box ;  " width="560" height="315"
+            src="https://www.youtube.com/embed/5A3JE0ZL6HQ" title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe></p>
+        <br>
+        <p>　　　　　　　　　　　　　　　　　　　　　　　　<iframe style="display:inline-block;box-sizing: border-box ;;" width="560" height="315"
+            src="https://www.youtube.com/embed/_fGqIF1vZoI" title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe></p>
+        <br>
+        <p>　　　　　　　　　　　　　　　　　　　　　　　　<iframe style="display:inline-block;box-sizing: border-box ;;" width="560" height="315"
+            src="https://www.youtube.com/embed/biNk3buUj70" title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe></p>
+        <br>
+        <a href="index.html">回到首頁</a>
+        <br />
+    </div>
+</body>
+
 </html>
